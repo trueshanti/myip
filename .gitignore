@@ -1,0 +1,29 @@
+# Ignore local environment / secrets
+.env
+.env.*
+*.secret
+# Composer / PHP
+/vendor/
+/composer.lock
+# Build tool files
+/node_modules/
+# OS files
+.DS_Store
+Thumbs.db
+# Editor/IDE
+.vscode/
+.idea/
+# Log files
+*.log
+# Keys/certificates
+*.key
+*.pem
+# Git credentials or local credential files (do not store tokens in repo)
+.git-credentials
+# Credentials file inside repository root (if created)
+.credentials
+# Ignore backup and temporary files
+*~
+*.bak
+# Misc
+phpunit.*
