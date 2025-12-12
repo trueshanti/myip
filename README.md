@@ -4,6 +4,8 @@
 
 This small PHP project shows the client's public IP address and related geolocation metadata (city, region, country), ISP, ASN, and hostname. It determines the client IP from `$_SERVER['REMOTE_ADDR']` and `HTTP_X_FORWARDED_FOR` (if set) and queries `ip-api.com` for lookup data.
 
+demo: https://mojo.cc/myip
+
 ## Usage
 
 - Deploy `myip.php` on a PHP-capable web server (Apache, Nginx + PHP-FPM) and open it in a browser.
